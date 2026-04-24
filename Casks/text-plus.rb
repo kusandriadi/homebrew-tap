@@ -1,6 +1,6 @@
 cask "text-plus" do
-  version "1.0.1"
-  sha256 "e16d2d0408cf3f2d2cd4674dd21c05d2e9661b155c4ceacaf13463c8406f0e66"
+  version "1.0.2"
+  sha256 "03e0dde8fb52841b7ba1c040087314bef5429650f2104dcdbfd018d29389e7ac"
 
   url "https://github.com/kusandriadi/text-plus/releases/download/v#{version}/text-plus_#{version}.dmg"
   name "Text Plus"
