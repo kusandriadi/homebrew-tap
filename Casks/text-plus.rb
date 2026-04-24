@@ -12,8 +12,12 @@ cask "text-plus" do
 
   app "text-plus.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/text-plus.app"]
+  end
+
   zap trash: [
-    "~/Library/Caches/com.textplus.editor",
     "~/Library/Preferences/com.textplus.editor.plist",
     "~/Library/Saved Application State/com.textplus.editor.savedState",
   ]
