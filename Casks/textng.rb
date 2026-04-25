@@ -1,6 +1,6 @@
 cask "textng" do
-  version "1.0.8"
-  sha256 "bd51cce54dcecfef046f0e720ad0cca2762f4794f0f5fafa64e3e4d9275bb562"
+  version "1.0.9"
+  sha256 "64a876cfb3f3f6bc3b445b896208f10ca78749275ad101889df325fe39c30387"
 
   url "https://github.com/kusandriadi/textng/releases/download/v#{version}/TextNG.dmg"
   name "TextNG"
